@@ -14,6 +14,7 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
+
 // Helper: build Cloudinary folder path based on params
 function buildFolderPath(zone, supervisor, date, category) {
     let path = `Zones/${zone}/${supervisor}`;
